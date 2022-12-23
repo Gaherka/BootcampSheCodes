@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+</head>
+<body>
+    <form name="formulario1">
+        <table style="text-align: left; margin-left: auto; margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="a">Ingresa el valor de a:</label>
+                    </td>
+                    <td>
+                        <input name="a" required="required" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="b">Ingresa el valor de b:</label>
+                    </td>
+                    <td>
+                        <input name="b" required="required" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="operacion">Selecciona el valor de operacion:</label>
+                    </td>
+                    <td>
+                        <select name="operacion" required="required">
+                            <option value="1">Suma</option>
+                            <option value="2">Resta</option>
+                            <option value="3">Multiplicaci&oacute;n</option>
+                            <option value="4">Divisi&oacute;n</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2" rowspan="1">
+                        <input value="Procesar" type="button" onclick="algoritmo();" />
+                        <input type="reset" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="resultado">Valor de resultado:</label>
+                    </td>
+                    <td>
+                        <input name="resultado" step="0.000001" type="number" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <script src="ejercicio12.js"></script>
+</body>
+</html>

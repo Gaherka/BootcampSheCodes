@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/Css/style.css">
+    <title>CRUD JS</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <img class="logo" src="./assets/images/icon_page.png" height="60" alt="">
+        <nav class="menu">
+            <ol>
+                <li>
+                    <a class="link" href="#footer">Acerca de</a>
+                </li>
+                <li>
+                    <a class="link" href="index.html">CRUD</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+
+    <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+        <div class="tablita">
+            <table class="tabla" id="tabla">
+                <thead>
+                    <tr> 
+                        <th>Nombre</th> 
+                        <th>Apellido</th>
+                        <th>País</th>
+                        <th>Ciudad</th>
+                        <th>Opciones</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <br/>
+        <br/>
+        <div class="caja">
+            <label for="nombre">Nombre</label> <input type="text" id="nombre" placeholder="Escriba aqui" required>
+            <label for="apellido">Apellido</label> <input type="text" id="apellido" placeholder="Escriba aqui" required>
+            <label for="pais">País</label> <input type="text" id="pais" placeholder="Escriba aqui" required>
+            <label for="ciudad">Ciudad</label> <input type="text" id="ciudad" placeholder="Escriba aqui" required>
+        </div>
+        <br/>
+        <input class="submit" type="submit" value="Escribir">
+        </form>
+
+    <footer class="footer" id="footer">
+        <a href="" class="social foote-linkendin" target="_blank"></a>
+    </footer>
+
+    <script src="/assets/Js/script.js"></script>
+</body>
+</html>

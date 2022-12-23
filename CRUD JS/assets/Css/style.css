@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid blueviolet;
+    margin-top: auto;
+    padding-top: 0s;
+}
+
+.header a{
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightskyblue;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.header ol{
+    list-style: none;
+    display: flex;
+    height: auto;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.link:hover{
+    color: white;
+    background-color: blueviolet;
+    border: 0.5px solid wheat;
+}
+
+.logo{
+    display: flex;
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0;
+}
+
+.logo img{
+    margin: 0px 0px 0px 5px;
+    display: flex;
+    padding: 1px;
+    border: 0;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    height: inherit;
+}
+
+.menu li{
+    display: inline;
+}
+
+table{
+    border-collapse: collapse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table tr th{
+    border: 1px solid violet;
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: blueviolet;
+}
+
+td{
+    border: 1px solid violet;
+    width: 100px;
+    height: 25px;
+}
+
+.caja{
+    display: block;
+    margin: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+.caja input{
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+
+.submit{
+    width: 125px;
+    height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid white;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-top: 2px solid violet;
+    margin-top: 1px;
+    padding: 5px;
+}
+
+.social{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+.footer-linkendin{
+    background-image: url(../images/linkedin.ico);
+}
+
+.footer-instagram{
+    background-image: url(../images/instagram.ico);
+}
+
+.tablita{
+    text-align: center;
+}

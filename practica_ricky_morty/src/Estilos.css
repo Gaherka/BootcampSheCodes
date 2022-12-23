@@ -1,0 +1,19 @@
+.header-componente{
+    text-align: center;
+    background-color: #5180d7;
+    color: white;
+    padding: 25px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menu{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
